@@ -1,8 +1,8 @@
 /*
-Theme Name: Zerif Lite
-Theme URI: http://themeisle.com/themes/zerif-lite/
+Theme Name: Zerif Barta
+Theme URI: https://github.com/bartacruz/zerif-barta
 Author: ThemeIsle
-Author URI: http://themeisle.com
+Author URI: https://github.com/bartacruz
 Description: Zerif LITE is a free one page Wordpress theme. It's perfect for web agency business,corporate business,personal and parallax business portfolio, photography sites and freelancer.Is built on BootStrap with parallax support, is responsive, clean, modern, flat and minimal. Zerif Lite is ecommerce (WooCommerce) Compatible, WPML, RTL, Retina-Ready, SEO Friendly and with parallax, full screen image is one of the best business themes.
 Version: 1.8.3.5
 License: GNU General Public License version 3
@@ -974,7 +974,7 @@ a:active {
     margin-left: 0;
 }
 .site-content {
-	background: #FFF;
+	background: rgba(255,255,255,0.8);
 }
 .home .site-content {
 	background: none;
@@ -2933,6 +2933,9 @@ width: -webkit-calc(100% / 4);
 	background: #34d293;
 }
 
+.contact-us a {
+	color: #f9a090;
+}
 /*---------------------------------------
  **   Footer           -----
 -----------------------------------------*/
@@ -5683,6 +5686,7 @@ body.home.page {
 body.custom-background {
 	background-position: top center !important;
 	background-attachment: fixed !important;
+	background-size: cover !important;
 }
 
 .zerif_team:nth-child(4n+1), .our-team .col-lg-3:nth-child(4n+1) {
